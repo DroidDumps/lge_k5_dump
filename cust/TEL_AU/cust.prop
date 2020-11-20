@@ -1,0 +1,44 @@
+# Define cupss root dir from NT Code or BUYER
+ro.lge.capp_cupss.rootdir=/cust/TEL_AU
+
+# Define target operator/country/region
+ro.build.target_operator=TEL
+ro.build.target_country=AU
+ro.build.target_region=ESA
+
+# Define Google Client ID
+ro.com.google.clientidbase=android-om-lge
+ro.com.google.clientidbase.ms=android-telstra-au
+ro.com.google.clientidbase.am=android-telstra-au
+ro.com.google.clientidbase.gmm=android-om-lge
+ro.com.google.clientidbase.yt=android-om-lge
+
+# Define SWV from CUPSS : Important for releasing Event Version
+ro.lge.swversion=K50010e
+ro.lge.swversion_short=V10e
+ro.lge.swversion_rev=0
+#ro.lge.swv_date=DEC-05-2013
+
+# Define IMEI SV(SVN)
+ro.lge.swversion_svn=1
+
+# Define CUPSS group in SWOV
+ro.lge.cupssgroup=GLOBAL-COM
+
+# Define default ringtone property
+ro.config.ringtone=Green Rays.ogg
+
+# Define default notification property
+ro.config.notification_sound=Green Alert.ogg
+
+# applying GPRI auto-commit
+ro.lge.radio_gpri=1
+ro.lge.amrwb_gpri=1
+
+# enable VoLTE
+ro.lge.supportvolte=1
+ro.lge.supportvt=0
+ro.lge.supportVolteCW=true
+
+# LteConfigs
+persist.sys.cust.lte_config=true

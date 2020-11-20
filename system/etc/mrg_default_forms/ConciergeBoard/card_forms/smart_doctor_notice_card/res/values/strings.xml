@@ -1,0 +1,7 @@
+<resources>
+
+    <string name="smartdoctor_notice_card_summary">Delete files and apps in Smart Doctor to free up [@param/size] of space.</string>
+    <string name="springcleaning_notice_card_available">Available to clean: [@param/size]</string>
+    <string name="go_to_clean_doctor">Go to Smart Doctor</string>
+
+</resources>

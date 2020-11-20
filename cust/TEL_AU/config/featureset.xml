@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<profiles>
+
+    <FeatureSet>
+        <!-- Message  Start-->
+                <item name="KSC5601Decoding">true</item>
+                <item name="handle8bit">true</item>
+                <item name="seperate_processing_sms_uicc">true</item>
+                <item name="retry_to_enable_cb">true</item>
+                <item name="allow_sending_empty_sms">true</item>
+                <item name="support_emoji_in_concat_message">true</item>
+                <item name="ConcatMTCheckTimestamp">true</item>
+        <!-- Message End-->
+        <!-- Global Spam Message Start -->
+                <item name="OperatorMessage">true</item>
+                <item name="spam">true</item>
+                <item name="GLOBALspam">true</item>
+                <item name="KRWapPushWithSpam">true</item>
+        <!-- Global Spam Message End -->
+        <!-- Telephony Start-->
+            <item name="MANUAL_SELECTION_WITH_RAT">true</item>
+            <item name="SUPPORT_LOG_RF_INFO">true</item>
+            <item name="support_volte_if">true</item>
+            <item name="support_srvcc">true</item>
+            <item name="support_volte_call_waiting">true</item>
+            <item name="srvcc_call_context_transfer">true</item>
+            <item name="mid_call_srvcc">true</item>
+    <!-- Telephony END-->
+    </FeatureSet>
+
+</profiles>

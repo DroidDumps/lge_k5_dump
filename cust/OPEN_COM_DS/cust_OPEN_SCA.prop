@@ -1,0 +1,74 @@
+# Define cupss root dir from NT Code or BUYER
+ro.lge.capp_cupss.rootdir=/data/local/cust
+
+# Define target operator/country/region
+ro.build.target_operator=OPEN
+ro.build.target_country=SCA
+ro.build.target_region=SCA
+
+# Define Default Language and Timezone
+ro.product.locale.region=AR
+ro.product.locale.language=es
+# defcountry is used only to set default spanish
+ro.product.locale.defcountry=AR
+persist.sys.timezone=America/Argentina/Buenos_Aires
+
+# Define SWV from CUPSS : Important for releasing Event Version
+ro.lge.swversion=K50010i
+ro.lge.swversion_short=V10i
+ro.lge.swversion_rev=0
+
+# Define Google Client ID
+ro.com.google.clientidbase=android-om-lge
+ro.com.google.clientidbase.ms=android-om-lge
+ro.com.google.clientidbase.am=android-om-lge
+ro.com.google.clientidbase.gmm=android-om-lge
+ro.com.google.clientidbase.yt=android-om-lge
+
+# Version name for Unified CAs
+ro.lge.opensw=SCA-XXX
+
+# Enable Chile SAE Channels
+persist.sys.cust.chilecbalert=true
+
+# Set this CA as Unifed
+persist.sys.cust.unifiedversion=true
+
+# Define CUPSS group in SWOV
+ro.lge.cupssgroup=GLOBAL-SCA
+
+# Fixing collapse error in contact detail (Peru requirement)
+persist.sys.cust.collapserule=true
+
+# Define SMS Settings for Venezuela
+persist.sys.cust.venmdsms=true
+
+# Enable MLT at SetupWizard
+persist.sys.mlt_swupdt=1
+
+# 2013-10-30 beney.kim@lge.com LGP_DATA_TCPIP_DATASCHEDULER [START]
+persist.lg.data.llkklk=true
+# 2013-10-30 beney.kim@lge.com LGP_DATA_TCPIP_DATASCHEDULER [END]
+
+# Wait power-off animation
+persist.sys.cust.waitpwroff=true
+
+# Define IMEI SV (SVN) : only for requested carrier(VDF, TMN, etc)
+#ro.lge.swversion_svn=0
+
+# Define ShowOnlySpn for Movistar
+persist.sys.cust.showonlyspn=true
+
+# Enable Ussd Time OUT
+persist.sys.cust.ussdtimeout=true
+
+# Enable Call Duration
+ro.lge.callduration=1
+
+# applying GPRI auto-commit
+ro.lge.radio_gpri=1
+ro.lge.amrwb_gpri=1
+ro.lge.radio_gpri_v2=1
+
+# LteConfigs
+persist.sys.cust.lte_config=false

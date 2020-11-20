@@ -1,0 +1,8 @@
+# Define Default Language and Timezone
+ro.product.locale.region=CR
+ro.product.locale.language=es
+ro.product.locale.defcountry=CR
+persist.sys.timezone=America/Costa_Rica
+
+# Version name for Unified CAs
+ro.lge.opensw=CRO-XXX

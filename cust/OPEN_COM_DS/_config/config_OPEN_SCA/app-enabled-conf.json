@@ -1,0 +1,49 @@
+{
+    "ApplicationEnabledSetting": [
+        {
+            "target_country": "------ default ------",
+            "sim.mcc": "",
+            "pkglist":[
+            ]
+        },
+        {
+            "target_country":"------ Brazil ------",
+            "sim.mcc":"724",
+            "pkglist":[
+                {"path":"/OP/OPEN_SCA_DS/apps/SmartCall.apk", "type":"uninstallable"},
+                {"path":"/OP/OPEN_SCA_DS/apps/SuporteLG.apk", "type":"uninstallable"},
+                {"path":"/OP/OPEN_SCA_DS/apps/WidgetPusherIntegration.apk", "type":"uninstallable"}
+            ]
+        },
+        {
+            "target_country": "------ Argentina ------",
+            "sim.mcc": "722",
+            "pkglist": []
+        },
+        {
+            "target_country": "------ Mexico ------",
+            "sim.mcc": "334",
+            "pkglist": []
+        },
+        {
+            "target_country": "------ Costa Rica ------",
+            "sim.mcc": "712",
+            "pkglist": []
+        },
+        {
+            "target_country": "------ Panama ------",
+            "sim.mcc": "714",
+            "pkglist": []
+        },
+        {
+            "target_country": "------ Chile ------",
+            "sim.mcc": "730",
+            "pkglist": []
+        },
+        {
+            "target_country": "------ Colombia ------",
+            "sim.mcc": "732",
+            "pkglist": []
+        }
+    ]
+}

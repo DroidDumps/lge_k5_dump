@@ -1,0 +1,10 @@
+{
+    "ApplicationEnabledSetting": [
+        {
+            "target_country": "------ default ------",
+            "sim.mcc": "",
+            "pkglist": [
+            ]
+        }
+    ]
+}

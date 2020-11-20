@@ -1,0 +1,13 @@
+{
+    "ApplicationEnabledSetting": [
+        {
+            "target_country": "Brazil",
+            "sim.mcc": "FFF",
+            "sim.mnc": "FF",
+            "sim.subset": "34",
+            "pkglist": [
+                {"path":"/OP/OPEN_SCA_DS/apps/AppCatalog.apk", "type":"system_app"}
+            ]
+        }
+    ]
+}

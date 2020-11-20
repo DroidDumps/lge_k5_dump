@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<Configure>
+    <!-- AT&T / United States -->
+    <!-- T-Mobile / United States -->
+    <Config operator="" country="US" device="">
+        <HostCardEmulationScenario> host_uicc, host_uicc, uicc, uicc </HostCardEmulationScenario>
+        <AutomaticSwitchingSupport> false </AutomaticSwitchingSupport>
+    </Config>
+    <!-- Sprint / United States -->
+    <Config operator="SPR" country="US" device="">
+        <SecureElementType> INITVALUE </SecureElementType>
+        <AccessControlEnable> false </AccessControlEnable>
+        <PermittedSeBroadcastEnable> false </PermittedSeBroadcastEnable>
+        <HostCardEmulationScenario> host, host, na, na </HostCardEmulationScenario>
+        <AutomaticSwitchingSupport> false </AutomaticSwitchingSupport>
+        <SIMSwapEnable> false </SIMSwapEnable>
+    </Config>
+    <!-- USC / United States -->
+    <Config operator="USC" country="US" device="">
+        <SecureElementType> INITVALUE </SecureElementType>
+        <AccessControlEnable> false </AccessControlEnable>
+        <PermittedSeBroadcastEnable> false </PermittedSeBroadcastEnable>
+        <HostCardEmulationScenario> host, host, na, na </HostCardEmulationScenario>
+        <AutomaticSwitchingSupport> false </AutomaticSwitchingSupport>
+        <SIMSwapEnable> false </SIMSwapEnable>
+    </Config>
+    <!-- ACG / United States -->
+    <Config operator="ACG" country="US" device="">
+        <SecureElementType> INITVALUE </SecureElementType>
+        <AccessControlEnable> false </AccessControlEnable>
+        <PermittedSeBroadcastEnable> false </PermittedSeBroadcastEnable>
+        <HostCardEmulationScenario> host, host, na, na </HostCardEmulationScenario>
+        <AutomaticSwitchingSupport> false </AutomaticSwitchingSupport>
+        <SIMSwapEnable> false </SIMSwapEnable>
+    </Config>
+    <!-- Verizon / United States -->
+    <Config operator="VZW" country="US" device="">
+        <WCScenarioEnable> update </WCScenarioEnable>
+        <DefaultOnOffType> offp2p </DefaultOnOffType>
+        <RingSoundScenarioType> usevibrate </RingSoundScenarioType>
+        <PopupDialogType> vzw </PopupDialogType>
+        <EmptyPopupSupport> false </EmptyPopupSupport>
+        <TransactionEventScenario> multicast </TransactionEventScenario>
+        <RemoveIconWhenLockScreen targetdevice="g3|p1|pplus"> true </RemoveIconWhenLockScreen>
+        <HostCardEmulationScenario> host_uicc, host_uicc, uicc, uicc </HostCardEmulationScenario>
+        <HostCardEmulationScenario targetdevice="g3|p1|pplus"> host_uicc, na, na, na </HostCardEmulationScenario>
+        <AutomaticSwitchingSupport> false </AutomaticSwitchingSupport>
+        <NfcAntennaPopup> none </NfcAntennaPopup>
+        <UseGpacResultValidTime> true </UseGpacResultValidTime>
+    </Config>
+    <!-- Criket / United States -->
+    <Config operator="CRK" country="US" device="">
+        <DefaultOnOffType> offp2p </DefaultOnOffType>
+    </Config>
+    <!-- T-Mobile / United States -->
+    <Config operator="TMO" country="US" device="">
+        <HostCardEmulationScenario> host_uicc, host_uicc, uicc, uicc </HostCardEmulationScenario>
+        <AutomaticSwitchingSupport> false </AutomaticSwitchingSupport>
+        <SwpWindowSize> 2 </SwpWindowSize>
+    </Config>
+    <!-- OPEN / United States -->
+    <Config operator="OPEN" country="US" device="t1wifin">
+        <SecureElementType> INITVALUE </SecureElementType>
+        <PopupDialogType> INITVALUE </PopupDialogType>
+        <AccessControlEnable> false </AccessControlEnable>
+        <EmptyPopupSupport> false </EmptyPopupSupport>
+        <HostCardEmulationScenario> host, host, host, na </HostCardEmulationScenario>
+        <AutomaticSwitchingSupport> false </AutomaticSwitchingSupport>
+    </Config>
+</Configure>

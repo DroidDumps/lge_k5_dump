@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<Configure>
+    <!-- Default -->
+    <!--
+    OPEN_XXX
+
+    OPEN_VNM(Vietnam)
+    OPEN_MYS(Malaysia)
+    OPEN_TW(Taiwan)
+    OPEN_ZAF(South Africa)
+    OPEN_SCA(South Centrl America)
+    OPEN_HK(Hongkong)
+     -->
+    <Config operator="" country="" device="">
+    </Config>
+
+    <!-- XXX_COM  -->
+    <Config operator="" country="COM" device="">
+        <DefaultOnOffType> open </DefaultOnOffType>
+    </Config>
+    <!-- XXX_EU  -->
+    <Config operator="" country="EU" device="">
+        <DefaultOnOffType> open </DefaultOnOffType>
+    </Config>
+
+    <!-- XXX_CIS -->
+    <Config operator="" country="CIS" device="">
+        <DefaultOnOffType> open </DefaultOnOffType>
+    </Config>
+    <!-- XXX_ESA -->
+    <Config operator="" country="ESA" device="">
+        <DefaultOnOffType> open </DefaultOnOffType>
+    </Config>
+    <!-- XXX_AME -->
+    <Config operator="" country="AME" device="">
+        <DefaultOnOffType> open </DefaultOnOffType>
+    </Config>
+
+    <!-- OPEN_TR ( Open / Turkey ) -->
+    <Config operator="" country="TR" device="">
+        <DefaultOnOffType> open </DefaultOnOffType>
+    </Config>
+    <!--
+    TLF_ES(Telefonica / Spain)
+    TLF_EU(Telefonica / European Union)
+    -->
+    <Config operator="TLF" country="" device="">
+        <DefaultOnOffType> open </DefaultOnOffType>
+    </Config>
+    <!-- Orange / Open -->
+    <Config operator="ORG" country="COM" device="">
+        <RingSoundScenarioType> usevibrate </RingSoundScenarioType>
+        <DefaultOnOffType> open </DefaultOnOffType>
+    </Config>
+    <!-- T-Mobile / Open -->
+    <Config operator="TMO" country="COM" device="">
+        <DefaultOnOffType> open </DefaultOnOffType>
+    </Config>
+</Configure>

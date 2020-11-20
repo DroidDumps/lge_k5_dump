@@ -1,0 +1,11 @@
+on init
+    exec u:r:setup_fs:s0 -- /sbin/setup_fs_static \
+        /dev/block/bootdevice/by-name/cache \
+        no_reboot
+
+on fs
+    wait /dev/block/bootdevice/by-name/system
+    mount ext4 /dev/block/bootdevice/by-name/system /system ro noatime barrier=1
+    wait /dev/block/bootdevice/by-name/userdata
+    mount ext4 /dev/block/bootdevice/by-name/userdata /data nosuid nodev noatime barrier=1 noauto_da_alloc errors=continue
+

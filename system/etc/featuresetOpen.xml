@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<profiles>
+    <FeatureSet>
+    <!-- 15.03.30 Version : Added OPEN_TR -->
+    <!-- 15.07.06 Version : Added deliver_intent_to_current feature in Common part -->
+    <!-- Common Value is Must located Top!! -->
+    <!-- Message Start-->
+        <item name="KSC5601Decoding">true</item>
+        <item name="handle8bit">true</item>
+        <item name="seperate_processing_sms_uicc">true</item>
+        <item name="retry_to_enable_cb">true</item>
+        <item name="allow_sending_empty_sms">true</item>
+        <item name="support_emoji_in_concat_message">true</item>
+        <item name="ConcatMTCheckTimestamp">true</item>
+        <item name="deliver_intent_to_current">false</item>
+        <item name="always_cb_channel_update">true</item>
+    <!-- Message End-->
+    <!-- Global Spam Message Start -->
+        <item name="OperatorMessage">true</item>
+        <item name="spam">true</item>
+        <item name="GLOBALspam">true</item>
+        <item name="KRWapPushWithSpam">true</item>
+    <!-- Global Spam Message End -->
+    </FeatureSet>
+
+    <!-- Open Operators -->
+    <FeatureSet operator="OPEN" country="AME">
+    </FeatureSet>
+    <FeatureSet operator="OPEN" country="AU">
+    </FeatureSet>
+    <FeatureSet operator="OPEN" country="CIS">
+        <item name="voicemailWaitingIndication_MEGAFON">true</item>
+    </FeatureSet>
+    <FeatureSet operator="OPEN" country="ESA">
+    </FeatureSet>
+    <FeatureSet operator="OPEN" country="EU">
+    </FeatureSet>
+    <FeatureSet operator="OPEN" country="HK">
+        <item name="retry_to_enable_cb">false</item>
+    </FeatureSet>
+    <FeatureSet operator="OPEN" country="IL">
+    </FeatureSet>
+    <FeatureSet operator="OPEN" country="MY">
+    </FeatureSet>
+    <FeatureSet operator="OPEN" country="SCA">
+        <item name="VIVO_UCS2GSM_Encoding">true</item>
+    </FeatureSet>
+    <FeatureSet operator="OPEN" country="SG">
+    </FeatureSet>
+    <FeatureSet operator="OPEN" country="TR">
+    </FeatureSet>
+    <FeatureSet operator="OPEN" country="TW">
+    </FeatureSet>
+    <FeatureSet operator="OPEN" country="ZA">
+    </FeatureSet>
+
+    <!-- Major Operators -->
+    <FeatureSet operator="CLR" country="BR">
+        <item name="VIVO_UCS2GSM_Encoding">true</item>
+        <item name="copy_submit_to_uicc">true</item>
+        <item name="MANUAL_SELECTION_WITH_RAT">true</item>
+        <item name="store_mwi_preference">true</item>
+        <item name="gsm_strict_encoding">false</item>
+    </FeatureSet>
+    <FeatureSet operator="CLR" country="COM">
+        <item name="VIVO_UCS2GSM_Encoding">true</item>
+        <item name="gsm_strict_encoding">true</item>
+    </FeatureSet>
+    <FeatureSet operator="ORG" country="COM">
+    </FeatureSet>
+    <FeatureSet operator="TCL" country="MX">
+        <item name="retry_to_enable_cb">false</item>
+    </FeatureSet>
+    <FeatureSet operator="TIM" country="BR">
+        <item name="VIVO_UCS2GSM_Encoding">true</item>
+    </FeatureSet>
+    <FeatureSet operator="TIM" country="IT">
+    </FeatureSet>
+    <FeatureSet operator="TLF" country="COM">
+    </FeatureSet>
+    <FeatureSet operator="TLF" country="ES">
+        <item name="VIVO_UCS2GSM_Encoding">true</item>
+    </FeatureSet>
+    <FeatureSet operator="TMO" country="COM">
+        <item name="allow_sending_MBP_directed_sms">true</item>
+    </FeatureSet>
+    <FeatureSet operator="TMO" country="TRA">
+        <item name="allow_sending_MBP_directed_sms">true</item>
+    </FeatureSet>
+    <FeatureSet operator="VDF" country="COM">
+    </FeatureSet>
+    <FeatureSet operator="VIV" country="BR">
+        <item name="VIVO_UCS2GSM_Encoding">true</item>
+    </FeatureSet>
+
+    <!-- Other operators -->
+    <FeatureSet operator="ANT" country="UY">
+        <item name="VIVO_UCS2GSM_Encoding">true</item>
+    </FeatureSet>
+    <FeatureSet operator="AVT" country="CO">
+        <item name="VIVO_UCS2GSM_Encoding">true</item>
+    </FeatureSet>
+    <FeatureSet operator="BOI" country="BR">
+        <item name="VIVO_UCS2GSM_Encoding">true</item>
+        <item name="gsm_strict_encoding">false</item>
+    </FeatureSet>
+    <FeatureSet operator="CCM" country="IL">
+    </FeatureSet>
+    <FeatureSet operator="CNT" country="EC">
+        <item name="VIVO_UCS2GSM_Encoding">true</item>
+        <item name="gsm_strict_encoding">true</item>
+    </FeatureSet>
+    <FeatureSet operator="CNW" country="COM">
+    </FeatureSet>
+    <FeatureSet operator="ENT" country="CL">
+        <item name="VIVO_UCS2GSM_Encoding">true</item>
+    </FeatureSet>
+    <FeatureSet operator="ETB" country="CO">
+        <item name="VIVO_UCS2GSM_Encoding">true</item>
+    </FeatureSet>
+    <FeatureSet operator="H3G" country="COM">
+    </FeatureSet>
+    <FeatureSet operator="ICE" country="CR">
+        <item name="VIVO_UCS2GSM_Encoding">true</item>
+    </FeatureSet>
+    <FeatureSet operator="MON" country="SG">
+    </FeatureSet>
+    <FeatureSet operator="MOV" country="COM">
+        <!-- Message Start -->
+        <item name="VIVO_UCS2GSM_Encoding">true</item>
+        <item name="MANUAL_SELECTION_WITH_RAT">true</item>
+        <!-- Message End -->
+        <item name="gsm_strict_encoding">true</item>
+    </FeatureSet>
+    <FeatureSet operator="MVN" country="VE">
+    </FeatureSet>
+    <FeatureSet operator="NXT" country="PE">
+        <item name="VIVO_UCS2GSM_Encoding">true</item>
+        <item name="gsm_strict_encoding">true</item>
+    </FeatureSet>
+    <FeatureSet operator="OPT" country="AU">
+    </FeatureSet>
+    <FeatureSet operator="ORD" country="DO">
+        <item name="VIVO_UCS2GSM_Encoding">true</item>
+    </FeatureSet>
+    <FeatureSet operator="ORI" country="IL">
+    </FeatureSet>
+    <FeatureSet operator="P4P" country="PL">
+    </FeatureSet>
+    <FeatureSet operator="PCL" country="IL">
+    </FeatureSet>
+    <FeatureSet operator="PLS" country="PL">
+    </FeatureSet>
+    <FeatureSet operator="PSN" country="AR">
+    </FeatureSet>
+    <FeatureSet operator="SHB" country="SG">
+    </FeatureSet>
+    <FeatureSet operator="STL" country="SG">
+    </FeatureSet>
+    <FeatureSet operator="TEL" country="AU">
+    </FeatureSet>
+    <FeatureSet operator="TGO" country="CO">
+    </FeatureSet>
+    <FeatureSet operator="TGO" country="COM">
+        <item name="VIVO_UCS2GSM_Encoding">true</item>
+        <item name="gsm_strict_encoding">true</item>
+    </FeatureSet>
+    <FeatureSet operator="TNR" country="COM">
+    </FeatureSet>
+    <FeatureSet operator="TNZ" country="NZ">
+    </FeatureSet>
+    <FeatureSet operator="UNF" country="MX">
+    </FeatureSet>
+    <FeatureSet operator="VDA" country="AU">
+    </FeatureSet>
+    <FeatureSet operator="VMC" country="GB">
+    </FeatureSet>
+    <FeatureSet operator="WIN" country="IT">
+    </FeatureSet>
+
+</profiles>

@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="title_text"> You may have moved recently. Change home to this address? </string>
+    <string name="source_text"></string>
+    <string name="see_more">See more</string>
+    <string name="change">Change</string>
+    <string name="title_my_place">My places</string>
+
+</resources>

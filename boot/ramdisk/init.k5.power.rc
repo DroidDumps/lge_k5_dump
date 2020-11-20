@@ -1,0 +1,38 @@
+# LGE copyright 2015.
+
+import /init.lge.power.rc
+
+# chargerlogo
+on chargerlogo
+   trigger early-fs
+   trigger fs
+   trigger post-fs
+   trigger post-fs-data
+   trigger chargerlogo_exec
+
+on chargerlogo_exec
+   chown root system /sys/class/power_supply/bms/current_now
+   chown root system /sys/class/power_supply/bms/voltage_ocv
+   chmod 0664 /sys/class/power_supply/bms/current_now
+   chmod 0664 /sys/class/power_supply/bms/voltage_ocv
+   start vm_bms
+
+# USB_CURRENT_MAX check
+on property:persist.service.usbcurrentmax=1
+    write /sys/class/power_supply/battery/usb_current_max "1"
+on property:persist.service.usbcurrentmax=0
+    write /sys/class/power_supply/battery/usb_current_max "0"
+
+# Tsens Test : change critical temp
+on property:persist.service.criticaltemp=1
+    write /sys/devices/virtual/thermal/thermal_zone0/ctrl_crit_temp "1"
+    write /sys/devices/virtual/thermal/thermal_zone1/ctrl_crit_temp "1"
+    write /sys/devices/virtual/thermal/thermal_zone2/ctrl_crit_temp "1"
+    write /sys/devices/virtual/thermal/thermal_zone3/ctrl_crit_temp "1"
+    write /sys/devices/virtual/thermal/thermal_zone4/ctrl_crit_temp "1"
+on property:persist.service.criticaltemp=0
+    write /sys/devices/virtual/thermal/thermal_zone0/ctrl_crit_temp "0"
+    write /sys/devices/virtual/thermal/thermal_zone1/ctrl_crit_temp "0"
+    write /sys/devices/virtual/thermal/thermal_zone2/ctrl_crit_temp "0"
+    write /sys/devices/virtual/thermal/thermal_zone3/ctrl_crit_temp "0"
+    write /sys/devices/virtual/thermal/thermal_zone4/ctrl_crit_temp "0"

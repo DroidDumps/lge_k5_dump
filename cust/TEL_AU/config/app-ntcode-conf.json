@@ -1,0 +1,15 @@
+{
+    "ApplicationEnabledSetting":
+    [
+
+        {
+            "target_country":"------ TEL AU  ------",
+            "sim.mcc" : "505",
+            "pkglist": [
+                { "path" : "/OP/TEL_AU/apps/OSA_Telstra.apk","type" : "system_app"},
+                { "path" : "/OP/TEL_AU/apps/DownloadWallPaper_signed.apk","type" : "system_app"}
+            ]
+        }
+
+    ]
+}

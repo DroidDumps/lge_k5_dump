@@ -1,0 +1,11 @@
+# Define Default Language and Timezone
+ro.product.locale.region=BR
+ro.product.locale.language=pt
+ro.product.locale.defcountry=BR
+persist.sys.timezone=America/Sao_Paulo
+
+#Version name for Unified CAs
+ro.lge.opensw=BRA-XXX
+
+# CellBroadcast on notification bar (Brazil requirement)
+persist.sys.cust.cbinfo_not_bar=true

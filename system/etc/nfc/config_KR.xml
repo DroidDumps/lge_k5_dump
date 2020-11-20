@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<Configure>
+    <!--
+    SKT_KR (SKT / Korea)
+    KT_KR (KT / Korea)
+    LGU_KR (LG Uplus / Korea)
+    -->
+    <Config operator="" country="KR" device="">
+        <IndicatorType> three_toggleV1N </IndicatorType>
+        <RingSoundScenarioType> onlyndefdiscovered </RingSoundScenarioType>
+        <PowerSaveType> rwp2p </PowerSaveType>
+        <PopupDialogType> INITVALUE </PopupDialogType>
+        <LockScreenPollingEnable> true </LockScreenPollingEnable>
+        <PermittedSeBroadcastEnable> false </PermittedSeBroadcastEnable>
+        <EmptyPopupSupport> false </EmptyPopupSupport>
+        <NFCCEventConfig> rffield_EEevent_off </NFCCEventConfig>
+        <HostCardEmulationScenario> config, config, uicc, uicc </HostCardEmulationScenario>
+        <ReaderModeApiSupport targetdevice="h1|ph1|k5|k7|l5000"> true </ReaderModeApiSupport>
+
+    </Config>
+    <!-- OPEN_KR -->
+    <Config operator="OPEN" country="KR" device="">
+        <SecureElementType> INITVALUE </SecureElementType>
+        <PowerSaveType> all </PowerSaveType>
+        <PopupDialogType> INITVALUE </PopupDialogType>
+        <AccessControlEnable> false </AccessControlEnable>
+        <EmptyPopupSupport> false </EmptyPopupSupport>
+        <HostCardEmulationScenario> host, host, host, na </HostCardEmulationScenario>
+        <AutomaticSwitchingSupport> false </AutomaticSwitchingSupport>
+    </Config>
+</Configure>

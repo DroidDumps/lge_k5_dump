@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<profiles>
+
+    <FeatureSet>
+    <!-- Message Start-->
+        <item name="KSC5601Decoding">true</item>
+        <item name="handle8bit">true</item>
+        <item name="copy_submit_to_uicc">true</item>
+        <item name="seperate_processing_sms_uicc">true</item>
+        <item name="allow_sending_empty_sms">true</item>
+        <item name="turkishEncoding">true</item>
+
+        <!-- Telephony Start-->
+        <item name="MANUAL_SELECTION_WITH_RAT">true</item>
+        <item name="SUPPORT_LOG_RF_INFO">true</item>
+        <!-- Telephony END-->
+
+    <!-- Message End-->
+    </FeatureSet>
+
+</profiles>
